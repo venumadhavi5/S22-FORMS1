@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Signup Form</h1>
+    <div class="mainForm">
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+            <div>
+                <label>First Name</label>
+                <input>
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input>
+            </div>
+            <div>
+                <label for="states">Choose a state:</label>
+        <select id="states" name="states">
+            <optgroup label="south indian states">
+            <option value="andhra-pradesh">Andhra Pradesh</option>
+            <option value="arunachal-pradesh">Arunachal Pradesh</option>
+            <option value="assam">Assam</option>
+            <option value="bihar">Bihar</option>
+            <option value="chhattisgarh">Chhattisgarh</option>
+            <option value="goa">Goa</option>
+            <option value="gujarat">Gujarat</option>
+            <option value="haryana">Haryana</option>
+            <option value="himachal-pradesh">Himachal Pradesh</option>
+            <option value="jharkhand">Jharkhand</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="kerala">Kerala</option>
+        </optgroup>
+        <optgroup label="north indian states">
+            <option value="madhya-pradesh">Madhya Pradesh</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="manipur">Manipur</option>
+            <option value="meghalaya">Meghalaya</option>
+            <option value="mizoram">Mizoram</option>
+            <option value="nagaland">Nagaland</option>
+            <option value="odisha">Odisha</option>
+            <option value="punjab">Punjab</option>
+        </optgroup>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="sikkim">Sikkim</option>
+            <option value="tamil-nadu">Tamil Nadu</option>
+            <option value="telangana">Telangana</option>
+            <option value="tripura">Tripura</option>
+            <option value="uttar-pradesh">Uttar Pradesh</option>
+            <option value="uttarakhand">Uttarakhand</option>
+            <option value="west-bengal">West Bengal</option>
+        </select>
+            </div>
+           
+            <div>
+                <label>fav friuts</label>
+                <input list="fruits">
+                <datalist id="fruits">
+                <option>mango</option>
+                    <option>apple</option>
+                    <option>banana</option>
+                </datalist>
+            </div>
+            <div>
+                <label>Address</label>
+                <textarea></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+        <legend>Academic Detalis</legend>
+            <div>
+                <label for="telugu">Telugu</label>
+                <input id="telugu">
+            </div>
+            <div>
+                <label>English</label>
+                <input>
+            </div>
+            <div>
+                <label>Hindi</label>
+                <input>
+            </div>
+            <div>
+                <label for="maths">Maths</label>
+                <input id="maths">
+            </div>
+            <div>
+                <label>Science</label>
+                <input>
+            </div>
+            <div>
+                <label>Social</label>
+                <input>
+            </div>
+        </fieldset>
+            
+            <div>
+                <button type="button">Calculate</button>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            
+            
+
+
+
+
+
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
